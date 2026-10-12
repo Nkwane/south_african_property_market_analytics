@@ -38,7 +38,7 @@ The data is organised into separate provincial, metropolitan and individual metr
 
 ## Analytical Approach
 
-1. Data Ingestion and Validation
+1.Data Ingestion and Validation
 
 Load the source residential property price index data.
 
@@ -46,7 +46,7 @@ Validate the source file and inspect the data structure.
 
 Identify duplicate records and assess data consistency.
 
-2. Data Transformation
+2.Data Transformation
 
 Restructure the historical monthly data into an analysis-ready format.
 
@@ -56,7 +56,7 @@ Separate provincial indices, overall metropolitan indices, and individual metrop
 
 Prepare datasets for subsequent analysis.
 
-3. Feature Engineering and Statistical Analysis
+3.Feature Engineering and Statistical Analysis
 
 Calculate relevant market growth measures.
 
@@ -66,7 +66,7 @@ Assess market volatility using the project's calculated measures.
 
 Prepare analytical features for comparisons and forecasting.
 
-4. Power BI Dashboard Development
+4.Power BI Dashboard Development
 
 The dashboard is structured around five analytical pages:
 
@@ -80,11 +80,12 @@ Market Risk & Stability — Analysis of growth, volatility and differences in ma
 
 Market Forecasting — Forecasted index movements and model evaluation using appropriate error metrics, including MAE and MAPE where applicable.
 
-5. Forecasting and Model Evaluation
+5.Forecasting and Model Evaluation
 
 Forecasting methods are used to investigate potential future price index movements based on historical patterns. Forecast accuracy is assessed using appropriate evaluation metrics.
 
 Forecasts are exploratory and should not be interpreted as guaranteed future property market outcomes.
+
 Author
 DR Nkwane
 
