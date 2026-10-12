@@ -88,8 +88,6 @@ Forecasts are exploratory and should not be interpreted as guaranteed future pro
 
 ## Tools and Technologies
 - Python: Data processing, feature engineering, statistical analysis, and forecasting.
-- Pandas and NumPy: Data manipulation and numerical calculations.
-- Matplotlib: Data visualisation and exploratory analysis.
 - Power BI: Interactive dashboards and analytical reporting.
 - Microsoft Excel: Source data and processed dataset storage.
 - Git and GitHub: Version control and project documentation.
