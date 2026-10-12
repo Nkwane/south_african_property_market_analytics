@@ -1,108 +1,24 @@
-# south_african_property_market_analytics
+# South African Property Market Analytics
 Provincial and metropolitan residential property market analysis in South Africa using Python, statistical analysis, forecasting and Power BI.
 
 ## Project Overview
-This project demonstrates the development of a modern Data Warehouse solution using SQL Server, Medallion Architecture, and Power BI.
+This project analyses South Africa's residential property market across provinces and metropolitan areas using historical Residential Property Price Index (RPPI) data.
 
-The solution integrates CRM and ERP source systems, transforms raw data into analytical datasets, and delivers interactive business intelligence dashboards.
+The objective is to identify regional property market trends, compare long-term price index growth, examine differences in property market behaviour, assess market volatility and stability and explore potential future trends through forecasting.
 
+Python is used for data processing, statistical analysis, feature engineering and forecasting and Power BI is used to develop the dashboards that communicate key findings.
 
+The analysis covers provincial and metropolitan markets using monthly observations from 2010 to April 2026. Data source STATS SA
 
-Project Architecture
+## Objectives
 
-CRM & ERP Sources
-↓
-Bronze Layer
-↓
-Silver Layer
-↓
-Gold Layer
-↓
-Power BI Dashboard
-
-Objectives
-- Build an end-to-end Data Warehouse solution
-- Implement Bronze, Silver, and Gold layers
-- Perform data cleansing and transformation
-- Design a Star Schema model
-- Create interactive Power BI dashboards
-- Demonstrate ETL and BI development skills
-
-Technologies Used
-
-SQL Server 
-Power BI
-GitHub 
-Draw.io
-
-Data Warehouse Layers
-
-Bronze Layer
-Stores raw data from source systems without transformations.
-
- Tables
-- crm_sales_details
-- crm_cust_info
-- crm_prd_info
-- erp_cust_az12
-- erp_loc_a101
-- erp_px_cat_g1v2
-
-Silver Layer
-Cleansed and standardized data layer.
-- Remove duplicates
-- Handle null values
-- Standardize formats
-- Apply business rules
-
-Gold Layer
-Business-ready analytical layer designed using a Star Schema.
-
-Fact Table
-- fact_sales
-
-Dimension Tables
-- dim_customers
-- dim_product
-
-
-ETL Process
-
- Bronze Layer
-- Extract raw data
-- Load source files into SQL Server
-
-Silver Layer
-- Clean and transform data
-- Standardize business entities
-
-Gold Layer
-- Create dimensions and fact tables
-- Prepare data for reporting
-
-Power BI Dashboard
-
-The Power BI dashboard includes:
-- Sales 
-- Monthly Sales Summary
-- Customer Analysis
-- Product Performance
-- Interactive Filters & Slicers
-- Total Sales KPI
-- Total Quantity KPI
-- Total Orders KPI
-- Sales Trend Analysis
-- Monthly Sales Matrix
-- Dynamic Filtering
-
-Skills Demonstrated
-- Data Warehousing
-- ETL Development
-- SQL Development
-- Data Modelling
-- Business Intelligence
-- Power BI Reporting
-- Git Version Control
+- Analyse long-term residential property price index trends across South African provinces and metropolitan areas.
+- Compare index growth across residential property types.
+- Measure month-on-month and year-on-year index growth.
+- Examine historical growth variability and compare market stability.
+- Identify differences in regional and property-type performance.
+- Develop and evaluate time-series forecasts.
+- Report findings through Power BI dashboard.
 
 Author
 DR Nkwane
