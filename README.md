@@ -86,9 +86,20 @@ Forecasting methods are used to investigate potential future price index movemen
 
 Forecasts are exploratory and should not be interpreted as guaranteed future property market outcomes.
 
+## Tools and Technologies
+- Python: Data processing, feature engineering, statistical analysis, and forecasting.
+- Pandas and NumPy: Data manipulation and numerical calculations.
+- Matplotlib: Data visualisation and exploratory analysis.
+- Power BI: Interactive dashboards and analytical reporting.
+- Microsoft Excel: Source data and processed dataset storage.
+- Git and GitHub: Version control and project documentation.
+
+
+Visual Studio: Python development environment.
+
 Author
 DR Nkwane
 
 #License
-This project is for educational and portfolio purposes.
+This project is intended for educational, analytical and portfolio demonstration purposes. Residential property price indices measure changes in index values and do not directly represent individual property valuations or guaranteed investment returns. Historical performance and model forecasts should be interpreted in the context of the available data and the limitations of the analytical methods.
 
