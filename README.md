@@ -20,6 +20,71 @@ The analysis covers provincial and metropolitan markets using monthly observatio
 - Develop and evaluate time-series forecasts.
 - Report findings through Power BI dashboard.
 
+## Data Scope
+
+The project uses historical residential property price index data covering South African provinces and metropolitan areas.
+
+The analysis focuses on:
+
+Provincial markets: Comparing residential property price index movements across South Africa's nine provinces.
+
+Metropolitan markets: Examining differences in property market performance across metropolitan areas.
+
+Property types: Analysing freehold properties, sectional title properties, resold properties, and properties sold for the first time where data is available.
+
+Historical trends: Evaluating changes in property price indices over time.
+
+The data is organised into separate provincial, metropolitan and individual metropolitan-area datasets to support the relevant analyses.
+
+## Analytical Approach
+
+1. Data Ingestion and Validation
+
+Load the source residential property price index data.
+
+Validate the source file and inspect the data structure.
+
+Identify duplicate records and assess data consistency.
+
+2. Data Transformation
+
+Restructure the historical monthly data into an analysis-ready format.
+
+Standardise date fields and relevant attributes.
+
+Separate provincial indices, overall metropolitan indices, and individual metropolitan-area indices.
+
+Prepare datasets for subsequent analysis.
+
+3. Feature Engineering and Statistical Analysis
+
+Calculate relevant market growth measures.
+
+Examine historical price index movements.
+
+Assess market volatility using the project's calculated measures.
+
+Prepare analytical features for comparisons and forecasting.
+
+4. Power BI Dashboard Development
+
+The dashboard is structured around five analytical pages:
+
+Executive Market Overview — Provincial market performance, key indicators and long-term growth.
+
+Provincial Market Analysis — Detailed comparisons of residential property price index trends and provincial performance.
+
+Metropolitan Market Analysis — Comparisons of metropolitan property market trends and property-type behaviour.
+
+Market Risk & Stability — Analysis of growth, volatility and differences in market stability across provinces and metropolitan areas.
+
+Market Forecasting — Forecasted index movements and model evaluation using appropriate error metrics, including MAE and MAPE where applicable.
+
+5. Forecasting and Model Evaluation
+
+Forecasting methods are used to investigate potential future price index movements based on historical patterns. Forecast accuracy is assessed using appropriate evaluation metrics.
+
+Forecasts are exploratory and should not be interpreted as guaranteed future property market outcomes.
 Author
 DR Nkwane
 
